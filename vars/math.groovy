@@ -4,5 +4,5 @@ def sum(a,b,c)
 }
 def sub(a,b)
 {
-  echo "the sub of ${a}${b} is ${a+b} "
+  echo "the sub of ${a}${b} is ${a-b} "
 }
