@@ -5,5 +5,5 @@ def newDow(repos)
 
 def newBuild(pack)
 {
-  git "mvn ${pack}"
+  sh "mvn ${pack}"
 }
