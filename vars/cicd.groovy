@@ -20,5 +20,5 @@ def newTest(test)
 
 def runTest(testname)
 {
-sh 'java -jar /home/ubuntu/.jenkins/workspace/${testname}/testing.jar'
+sh "java -jar /home/ubuntu/.jenkins/workspace/${testname}/testing.jar"
 }
