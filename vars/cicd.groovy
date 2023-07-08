@@ -18,7 +18,7 @@ def newTest(test)
   git "https://github.com/intelliqittrainings/${test}.git"
 }
 
-def runTest(jobname)
+def runTest(testname)
 {
-sh 'java -jar /home/ubuntu/.jenkins/workspace/${jobname}/testing.jar'
+sh 'java -jar /home/ubuntu/.jenkins/workspace/${testname}/testing.jar'
 }
